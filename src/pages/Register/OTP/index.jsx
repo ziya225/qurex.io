@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { headers, post } from '../../../api';
 import { BaseSetting } from '../../../utils/common';
 import DiscMsg from '../../components/DisclaimerMsg';
@@ -9,9 +9,23 @@ const OTP = ({ mobileNo }) => {
   const [inputs, setInputs] = useState({});
   const [otpcomp, setOtpComp] = useState(false);
   const [errMsg, setErrMsg] = useState('');
+
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
+    if (name == 'otp1') {
+      ref2.current.focus();
+    }
+    if (name == 'otp2') {
+      ref3.current.focus();
+    }
+    if (name == 'otp3') {
+      ref4.current.focus();
+    }
+
     setInputs((values) => ({ ...values, [name]: value }));
   };
   const handleSubmit = (e) => {
@@ -68,6 +82,7 @@ const OTP = ({ mobileNo }) => {
             <div className="col-span-1 ">
               <input
                 name="otp2"
+                ref={ref2}
                 value={inputs.name}
                 onChange={handleChange}
                 maxlength="1"
@@ -79,6 +94,7 @@ const OTP = ({ mobileNo }) => {
             <div className="col-span-1 ">
               <input
                 name="otp3"
+                ref={ref3}
                 value={inputs.name}
                 onChange={handleChange}
                 maxlength="1"
@@ -89,6 +105,7 @@ const OTP = ({ mobileNo }) => {
             </div>
             <div className="col-span-1 ">
               <input
+                ref={ref4}
                 name="otp4"
                 value={inputs.name}
                 onChange={handleChange}

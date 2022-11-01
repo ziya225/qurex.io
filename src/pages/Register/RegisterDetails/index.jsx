@@ -29,7 +29,7 @@ const RegisterDetails = ({ mobileNo }) => {
         if (result.status == 1) {
           alert('Success');
         } else {
-          alert('Error');
+          alert(result.data);
         }
       } else {
       }
@@ -104,7 +104,11 @@ const RegisterDetails = ({ mobileNo }) => {
       </div>
       <div className="flex justify-center mt-5 ml-9  t514 text-[#666666] ">
         <div className="">Already have an account? </div>
-        <div className="text-[#1C5BD9] ">Login Here.</div>
+        <div className="text-[#1C5BD9] ">
+          <Link className="no-underline pl-[2px]" to="/login">
+            Login Here.
+          </Link>
+        </div>
       </div>
     </div>
   );

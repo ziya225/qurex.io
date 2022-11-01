@@ -17,7 +17,7 @@ const UPComp = () => {
     try {
       if (navigator.onLine) {
         const response = await post(
-          BaseSetting.userApiDomain + '/generateOTP',
+          BaseSetting.userApiDomain + '/auth',
           upInputs,
           headers
         );
@@ -27,7 +27,7 @@ const UPComp = () => {
         if (result.status == 1) {
           alert('success');
         } else {
-          alert('error');
+          alert(result.data);
         }
       } else {
       }
@@ -37,19 +37,21 @@ const UPComp = () => {
   };
   return (
     <>
-      <div className="t414 text-[#1C1C1C] mt-7">Modbile Number</div>
+      <div className="t414 text-[#1C1C1C] mt-7">Mobile Number</div>
       <div className="mt-3">
         <input
-          name="mobileNo"
+          name="mobile"
           value={upInputs.name}
           onChange={handleUPChange}
           className="py-3 pl-2 rounded-md border w-9/12 text-[12px] font-normal text-[#666666] outline-none"
           placeholder="Please enter your mofbile number"
         />
       </div>
-      <div className="mt-5 flex justify-between">
+      <div className="mt-4 flex justify-between">
         <div className="t414 text-[#1C1C1C] ">Password</div>
-        <div className="text-[#1C5BD9] t512 mr-28">Forgot password?</div>
+        <div className="text-[#1C5BD9] t512 mr-28 cursor-pointer">
+          Forgot password?
+        </div>
       </div>
       <div className="mt-3">
         <input
@@ -71,7 +73,7 @@ const UPComp = () => {
           className="bg-[#1C5BD9] py-3 rounded-3xl w-9/12 mt-10 text-white t714"
           onClick={(e) => handleUPSubmit(e)}
         >
-          UP
+          Login
         </button>
       </div>
     </>

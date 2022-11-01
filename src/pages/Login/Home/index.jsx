@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import OTPComp from '../OTPComp';
 import UPComp from '../UPComp';
 const Home = () => {
@@ -34,7 +35,11 @@ const Home = () => {
 
         <div className="mt-4 ml-9 flex flex-row t514 text-[#666666] ">
           <div className="">Don’t have an account? </div>
-          <div className="text-[#1C5BD9] pl-1">Register here.</div>
+          <div className="text-[#1C5BD9] pl-1">
+            <Link className="no-underline pl-[2px] " to="/register">
+              Register here.
+            </Link>
+          </div>
         </div>
       </div>
     </div>

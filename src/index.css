@@ -58,3 +58,540 @@
   font-weight: 700;
   font-size: 30px;
 }
+.heroContainer {
+  background-color: #d2e1fe;
+}
+.heroSectionFeature {
+  background: #7f75ff;
+}
+
+.footerContainer {
+  background-color: #d2e1fe;
+}
+.nav-link {
+  border-radius: 25px !important;
+}
+.heroImageContainer {
+  background: url('https://quer.vercel.app/static/media/herobg.f559c828291ec9dd5b45.png');
+  background-repeat: no-repeat;
+}
+
+.heroSection,
+.doctorHeroSection {
+  background-color: #f2f7ff;
+}
+.FeatureSection,
+.faqSection {
+  padding-top: 5%;
+  background-image: linear-gradient(#f2f7ff 60%, white 50%);
+}
+
+.howItWorksContainer,
+.CStastifactionSection {
+  padding: 5% auto;
+  background: #f2f7ff;
+}
+
+.counterSection {
+  background-color: #ebf2ff;
+  border-radius: 25px;
+}
+
+.counterTitle {
+  color: #1c5bd9;
+}
+
+.treatmentPageSection {
+  background-image: linear-gradient(#f2f7ff 60%, white 50%);
+}
+
+.LMASection {
+  background-color: #f1f1f1;
+}
+
+.doctorMoreSection {
+  background-color: #f1f1f1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+.heroContainer {
+  background-color: #d2e1fe;
+}
+.heroSectionFeature {
+  background: #7f75ff;
+}
+
+.footerContainer {
+  background-color: #d2e1fe;
+}
+
+.conleft {
+  display: flex;
+  height: 76%;
+  justify-content: center;
+}
+
+.gryline {
+  width: 100%;
+  height: 3px;
+  background-color: gray;
+}
+
+.consultsec {
+  width: 100%;
+  height: 100vh;
+  background: #f2f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultsec > div {
+  width: 70%;
+  background-color: #fff;
+  height: 70%;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  border: 1px solid #f1f1f1;
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  border-radius: 9px;
+}
+.inconleft {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conright {
+  width: 50%;
+}
+.conleft {
+  width: 50%;
+}
+.mobnavdw {
+  display: none;
+}
+
+.conright {
+  height: 82%;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conright > div {
+  border-radius: 6px;
+}
+
+.bitdiv {
+  width: 80%;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.bitdiv > button {
+  margin-left: 22px;
+}
+
+.back {
+  background: #ffffff;
+  border: 1px solid #1c5bd9;
+  border-radius: 100px;
+  height: 43px;
+  width: 118px;
+  left: 845px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+
+  top: 696px;
+  border-radius: 100px;
+  color: #1c5bd9;
+}
+
+.book {
+  height: 43px;
+  width: 118px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  opacity: 0.5;
+  background: #1c5bd9;
+  border-radius: 100px;
+}
+
+.slot {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #1c1c1c;
+}
+
+.divincp {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  height: 80%;
+}
+.bottomt > button,
+.topt > button {
+  height: 30px;
+  width: 71px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 12px;
+}
+.bottomt,
+.topt {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.onediv {
+  height: 30%;
+  background: #f2f7ff;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.confirmpay {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.incp {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.cnpbtn {
+  width: 169px;
+  height: 45px;
+  left: 908px;
+  border: none;
+  top: 694px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  background: #1c5bd9;
+  border-radius: 100px;
+}
+
+.docname {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #1c1c1c;
+}
+.inonediv {
+  margin-left: 8%;
+  display: flex;
+}
+
+.gyno {
+  margin-left: 22px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  background: #ebeaff;
+  border: 2px solid #f1f1f1;
+  border-radius: 6px;
+
+  color: #6358f9;
+}
+
+.imgunfo {
+  margin-right: 22px;
+}
+
+.sl01 {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.sl02 {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.slotinfo {
+  display: flex;
+  height: 77%;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.infoslot01 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(28, 28, 28, 0.8);
+}
+.infoslot02 {
+  display: block;
+  margin-left: 55px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: rgba(28, 28, 28, 0.8);
+}
+
+.selectedslot {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #1c1c1c;
+}
+
+.divt {
+  width: 100%;
+  background-color: #fff;
+  height: 50%;
+  display: flex;
+}
+
+.indivtwoonw {
+  width: 50%;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  height: 77%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
+
+.indivthr {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmur {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #1c1c1c;
+}
+
+.divthree {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  background: #f2f7ff;
+  border-radius: 0px 0px 4px 4px;
+}
+.dff01 {
+  display: flex;
+  flex-direction: column;
+}
+
+.expert {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #333333;
+}
+.dff01 {
+  width: 80%;
+  /* margin-left: 22px; */
+  margin: auto 0;
+  height: 60px;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 800px) {
+  .consultsec > div {
+    height: 80%;
+    width: 90%;
+  }
+
+  .conright > div {
+    width: 300px;
+  }
+
+  .consultsec {
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .consultsec > div {
+    height: 100%;
+    background: none;
+  }
+  .conright {
+    width: 72%;
+  }
+
+  .divthree {
+    background-color: white;
+  }
+  .mobnavdw {
+    height: 55px;
+
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mobnav01 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #1c1c1c;
+  }
+  .mobnav02 {
+    width: 103px;
+    height: 34px;
+    left: 201px;
+    top: 767px;
+
+    background: #1c5bd9;
+    border-radius: 100px;
+    color: #fff;
+  }
+
+  .conleft {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+  }
+  .consultsec {
+    height: 120vh;
+  }
+  .timings {
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .bitdiv {
+    display: none;
+  }
+  .conright {
+    justify-content: center;
+  }
+  .slot {
+    /* display: block; */
+    /* width: 178px; */
+    margin-left: 42px;
+  }
+  .gryline {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .infoslot01 {
+    font-size: 14px;
+  }
+  .si01 {
+    width: 279px;
+  }
+  .si02 {
+    width: 279px;
+  }
+  .si03 {
+    width: 279px;
+  }
+  .ondiv {
+    display: flex;
+    align-items: center;
+  }
+
+  .gyno {
+    width: 34%;
+  }
+
+  .dff01 > span {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .innerconsult {
+    flex-direction: column-reverse;
+  }
+  .onediv {
+    border-radius: 12px 12px 12px 5px;
+  }
+  .conright > div {
+    padding-top: 10%;
+    width: 100%;
+    height: 70%;
+  }
+  .divincp {
+    box-shadow: none;
+  }
+  .indivthr {
+    width: 54%;
+    height: 70%;
+    flex-direction: column-reverse;
+  }
+  .indivthr > span {
+    width: 100%;
+    margin-left: 22px;
+  }
+}

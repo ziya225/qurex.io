@@ -72,7 +72,9 @@ const Signup = () => {
           <div className="mt-5  ml-9 flex flex-row t514 text-[#666666] ">
             <div className="">Already have an account?</div>
             <div className="text-[#1C5BD9] ">
-              <Link to="/login">Login Here.</Link>
+              <Link className="no-underline pl-[2px]" to="/login">
+                Login Here.
+              </Link>
             </div>
           </div>
         </div>
