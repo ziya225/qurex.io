@@ -1,7 +1,7 @@
 import OTP from './OTP';
 import RegisterDetails from './RegisterDetails';
 import Signup from './Signup';
-import qurexhome from '../../assets/pngs/qurexhome.png';
+import qurexhome from '../../assets/pngs/qurexhome1.png';
 
 const Register = () => {
   return (

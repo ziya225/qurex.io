@@ -1,7 +1,6 @@
 import { useRef, useState } from 'react';
 import { headers, post } from '../../../api';
 import { BaseSetting } from '../../../utils/common';
-import DiscMsg from '../../components/DisclaimerMsg';
 import RegisterDetails from '../RegisterDetails';
 
 const OTP = ({ mobileNo }) => {
