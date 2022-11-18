@@ -4,11 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat'],
-        damion: ['Damion'],
-        opensans: ['Open Sans'],
+        'montserrat': ['Montserrat'],
+        'damion': ['Damion'],
+        'opensans': ['Open Sans'],
+        'body': ['"Montserrat"']
       },
     },
   },
   plugins: [],
+  important: true,
 };

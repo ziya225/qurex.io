@@ -2,12 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   input[type='number']::-webkit-inner-spin-button,
   input[type='number']::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
+}
+body {
+  font-family: 'Montserrat' !important;
+}
+.CardContainer {
+  padding: 0 !important;
 }
 .t414 {
   font-family: 'Montserrat';
@@ -59,7 +66,11 @@
   font-size: 30px;
 }
 .heroContainer {
-  background-color: #d2e1fe;
+  /* background-color: #d2e1fe; */
+  background:url("../src/assets/svgs/Artboard.svg") #d2e1fe;
+  background-size: 641px 626px;
+  background-position: unset;
+  background-repeat: no-repeat;
 }
 .heroSectionFeature {
   background: #7f75ff;
@@ -82,7 +93,6 @@
 }
 .FeatureSection,
 .faqSection {
-  padding-top: 5%;
   background-image: linear-gradient(#f2f7ff 60%, white 50%);
 }
 
@@ -595,3 +605,5 @@
     margin-left: 22px;
   }
 }
+
+@import '~bootstrap/dist/css/bootstrap.min.css';

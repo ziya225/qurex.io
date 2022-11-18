@@ -39,14 +39,14 @@ const Features = () => {
   };
 
   return (
-    <div className="container-fluid FeatureSection">
+    <div className="container-fluid FeatureSection pt-32">
     <div className="container">
       <div className="row">
         <div className="col"><h1>Sexual Issues we Treat</h1></div>
         <div className="col text-end py-2"><button type="button" className="btn btn-outline-primary rounded-pill">View All</button></div>
       </div>
-      <Tabs variant="pills" defaultActiveKey="male" className="my-5 mx-4">
-        <Tab eventKey="male" title="Male">
+      <Tabs variant="pills" defaultActiveKey="male" className="my-6">
+        <Tab eventKey="male" title="Male" className="nn">
         <Slider {...settings} className="mb-5">
           <div className="CardContainer px-1 px-lg-4">
            <div className="card ">
